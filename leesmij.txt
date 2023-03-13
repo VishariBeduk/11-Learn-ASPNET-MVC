@@ -1,13 +1,13 @@
 https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio-code
-https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-7.0&tabs=visual-studio-code
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/search?view=aspnetcore-7.0
 
 http://127.0.0.1:5213/HelloWorld/Welcome
 
 http://127.0.0.1:5213/HelloWorld/Welcome?name=Rick&numtimes=4
 
 
-dotnet tool install --global dotnet-aspnet-codegenerator --version 7.0.3
-dotnet tool install --global dotnet-ef --version 7.0.2
+dotnet tool install --global dotnet-aspnet-codegenerator
+dotnet tool install --global dotnet-ef
 
 export PATH="$PATH:/home/vscode/.dotnet/tools"
 
@@ -16,4 +16,3 @@ cat << \EOF >> ~/.bash_profile
 export PATH="$PATH:/home/vscode/.dotnet/tools"
 EOF
 
-~/Containers/Learn/03-mslearn-secure-aspnet-core-identity/.devcontainer/scripts
